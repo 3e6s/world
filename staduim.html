@@ -48,10 +48,6 @@
             border-radius: 5px;
         }
 
-        a {
-            text-decoration: none;
-        }
-
         header {
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
@@ -66,6 +62,21 @@
             color: #ffcc00;
             transform: scale(1.2);
         }
+
+        @media (max-width: 768px) {
+            .card img {
+                height: 150px;
+            }
+            h3 {
+                font-size: 16px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+        a {
+            text-decoration: none;
+        }
     </style>
 </head>
 <body dir="rtl">
@@ -74,7 +85,7 @@
             <div class="container d-flex justify-content-between align-items-center">
                 <div class="d-flex align-items-center">
                     <img src="images/الشعار_الرسمي_لكأس_العالم_بالسعودية_2034.png" alt="World Cup Logo" width="60" height="60">
-                    <strong class="p-1 text-white">أهلا بالعالم</strong>
+                    <strong class="p-1 text-white"> أهلا بالعالم, النور نورنا يالسعوديين</strong>
                 </div>
                 <ul class="list-inline mb-0 social-icons">
                     <a href="index.html"><strong class="p-2 text-white">الصفحة الرئيسية</strong></a>
@@ -82,7 +93,6 @@
                     <li class="list-inline-item p-1"><i class="bi bi-telephone fs-4 text-white"></i></li>
                     <li class="list-inline-item p-1"><i class="bi bi-snapchat fs-4 text-white"></i></li>
                     <li class="list-inline-item p-1"><i class="bi bi-twitter-x fs-4 text-white"></i></li>
-                    
                 </ul>
             </div>
         </nav>
@@ -91,46 +101,26 @@
     <main>
         <div class="container">
             <div class="row mt-5 justify-content-center">
-                <div class="col-md-3">
-                    <a href="staduim.html">
-                        <div class="card">
-                            <img src="images/81941129-58923623.jpg" alt="Logo">
-                            <div class="card-body">
-                                <h3><strong>الملاعب</strong></h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="cars.html">
-                        <div class="card">
-                            <img src="images/منشور Instagram أزرق داكن حديث عن السفر .png" alt="Match Day">
-                            <div class="card-body">
-                                <h3><strong>النقل</strong></h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="hotels.html">
+                <!-- الكرت الأول -->
+                <div class="col-md-6 col-lg-4">
                     <div class="card">
-                        <img src="images/منشور Instagram حديث أنيق رحلة سياحية إجازة الصيف بلون برتقالى و بنفسجى.png" alt="Logo">
+                        <img src="images/King-Salman-Stadium-Render-4.jpg" alt="Logo">
                         <div class="card-body">
-                            <h3><strong>الفنادق</strong></h3>
+                            <h3><strong>ملعب الملك سلمان</strong></h3>
+                            <p>ملعب الملك سلمان الدولي هو مشروع بناء ملعب جديد في شمال مدينة الرياض، على طريق الملك سلمان وبجوار حديقة الملك عبد العزيز، ويتميز أيضًا بقربه من المواقع الحيوية في المدينة مثل مطار الملك خالد، ويتصل بمحطة قطار الرياض ومحاور الطرق الرئيسة مما يُسهّل الوصول إليه من جميع أنحاء المدينة. سيستضيف الملعب المواجهتين الافتتاحية والنهائية من كأس العالم 2034، ستبدأ أعمال البناء في عام 2025م ويُتوقع افتتاحه في الربع الأخير من عام 2029م.</p>
                         </div>
                     </div>
-                </a>
                 </div>
-                <div class="col-md-3">
-                    <a href="matchtable.html">
+                <!-- الكرت الثاني -->
+                <div class="col-md-6 col-lg-4">
                     <div class="card">
-                        <img src="images/Black and Yellow Greyscale Photo Soccer Match Day Social Media.png" alt="Logo">
+                        <img src="images/maxresdefault.jpg" alt="Match Day">
                         <div class="card-body">
-                            <h3><strong>جدول المباريات</strong></h3>
+                            <h3><strong>ملعب الأمير محمد بن سلمان</strong></h3>
+                            <p>ملعب الأمير محمد بن سلمان يُطل على سفح الجبل، وطاقته الاستيعابيّة 46,979 ألف مقعد، وسيكون ضمن الملاعب التي ستستضيف كأس العالم 2034.</p>
                         </div>
                     </div>
-                </a>
-                </div>
+                </div>          
             </div>
         </div>
     </main>
